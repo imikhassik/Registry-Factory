@@ -1,0 +1,14 @@
+.idea
+venv
+.env
+registry_factory/links/__pycache__/
+registry_factory/links/migrations/__pycache__/
+registry_factory/registry_factory/__pycache__/
+registry_factory/registry_config/__pycache__/
+registry_factory/registry_config/management/__pycache__/
+registry_factory/registry_config/management/commands/__pycache__/
+registry_factory/registry_template/__pycache__/
+registry_factory/registry_template/migrations/__pycache__/
+openapi-shema.yml
+Registry API.yaml
+support.txt
