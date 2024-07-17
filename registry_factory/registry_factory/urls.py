@@ -20,11 +20,17 @@ from drf_spectacular.views import SpectacularAPIView, SpectacularSwaggerView
 from .routers import CustomRouter
 
 from links.views import LinksViewset, LinkViewset
+from people.views import PeopleViewset, PersonViewset
+from companies.views import CompaniesViewset, CompanyViewset
 
 
 router = CustomRouter()
 router.register(r'links', LinksViewset, basename='links')
 router.register(r'link', LinkViewset, basename='link')
+router.register(r'people', PeopleViewset, basename='people')
+router.register(r'person', PersonViewset, basename='person')
+router.register(r'companies', CompaniesViewset, basename='companies')
+router.register(r'company', CompanyViewset, basename='company')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
